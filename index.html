@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-Up</title>
+</head>
+<body>
+    <header>
+        <div>Header</div>
+        <div id="header-items">
+            <p onclick="redirect()">Signup</p>
+            <p onclick="redirect()">Profile</p>
+        </div>
+    </header>
+    <section id="container">
+        <h1>Signup</h1>
+        <form id="signup-form" onsubmit="submitForm(event)">
+            <input type="text" placeholder="Full Name" name="name">
+            <input type="email" placeholder="Email" name="email">
+            <input type="password" placeholder="Password" name="password">
+            <input type="password" placeholder="Confirm Password" name="confirm-password">
+            <p id="message"></p>
+            <button type="submit">Signup</button>
+        </form>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>

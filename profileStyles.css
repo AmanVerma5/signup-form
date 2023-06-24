@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color:white;
+    font-family:sans-serif;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    border-bottom: 2px solid white;
+}
+#header-items{
+    display: flex;
+    justify-content: space-between;
+}
+#header-items p{
+    padding-left: 20px;
+    padding-right: 20px;
+}   
+button{
+    margin: 3rem;
+    padding:1rem 3rem;
+    font-size: x-large;
+}
+#profile, #name, #email, #password{
+    margin:3rem;
+}
